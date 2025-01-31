@@ -1,0 +1,18 @@
+form {
+  width: 100%;
+}
+
+.my-gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.lg-on {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.lg-on::-webkit-scrollbar {
+  display: none; 
+}
